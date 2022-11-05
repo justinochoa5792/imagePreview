@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.imagePrev {
+  margin: auto;
+  width: 75%;
+}
+
+.image-preview {
+  position: fixed;
+  background-color: #333333;
+  inset: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  padding: 20px;
+}
+
+.bottom-bar {
+  padding: 20px;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+}
